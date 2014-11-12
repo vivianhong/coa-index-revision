@@ -1,0 +1,284 @@
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/4seasons.css?v=201408 ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_common.css?v=201408 ::::: */
+
+body { margin: 0px; padding: 0px; font-size: 0.75em; letter-spacing: 1px; }
+body br { letter-spacing: 0px; }
+h1 { margin: 0px 0px 0px -1000px; padding: 0px; font-size: 180%; }
+h2 { color: rgb(0, 0, 0); margin: 0px; padding: 0px; font-size: 150%; font-weight: normal; }
+h3 { margin: 0px; padding: 0px; font-size: 130%; color: rgb(0, 0, 0); clear: both; font-weight: normal; }
+h4 { color: rgb(0, 0, 0); margin: 1em 0px 0.5em; padding: 0px; font-size: 125%; font-weight: normal; }
+.center p { margin: 0px 0px 1em; }
+.center ol, .center ul { margin: 15px 0px; padding: 0px 0px 0px 2.5em; }
+.center li { line-height: 135%; margin-bottom: 0.5em; padding: 0px; }
+.header { position: relative; width: 100%; height: 141px; }
+.header h1 { position: absolute; }
+.header h1 a { display: block; width: 250px; height: 141px; text-indent: -3000px; margin-left: 80px; }
+.nav { position: absolute; top: 0px; right: 0px; list-style: none outside none; background: url('nav_bg.gif') no-repeat scroll left top transparent; padding: 3px 5px 3px 30px; margin: 0px; opacity: 0.75; }
+.nav li { display: inline; }
+.nav li a { background: url('nav_li_bg.gif') no-repeat scroll 0px 4px transparent; padding: 2px 10px; color: rgb(0, 0, 0); text-decoration: none; }
+.nav li a:hover { padding: 2px 10px; color: rgb(0, 138, 6); text-decoration: none; }
+.nav a.Accesskey { color: rgb(255, 255, 255); }
+.subnav { text-align: right; font-size: 15px; line-height: 16px; margin: 0px 0px 10px; overflow: hidden; width: 100%; }
+.subnav ul { margin: 0px 15px 0px 0px; padding: 0px; float: right; }
+.subnav li { display: inline; margin: 0px; padding: 0px; }
+.subnav a { display: block; float: left; padding: 5px 0.5em; text-align: right; text-decoration: none; }
+.season { height: 175px; position: absolute; left: 8px; top: 150px; padding-top: 30px; padding-left: 5px; letter-spacing: 0px; }
+.season p { display: block; width: 168px; margin: 0px 20px 0px 18px; padding: 8px 0px 7px; line-height: 110%; white-space: nowrap; text-align: center; }
+.season p span { margin-right: 1em; }
+.menu { width: 190px; margin: 0px 0px 15px 19px; padding: 0px 0px 15px; }
+.menu ul { margin: 0px; padding: 5px 0px 0px; list-style: none outside none; }
+.menu li, .menu2 li { margin: 0px; padding: 0px; }
+.menu li a, .menu2 li a { display: block; margin: 0px 10px; padding: 10px 20px 3px 3px; font-size: 15px; line-height: 110%; text-decoration: none; }
+.left .rss { width: 190px; height: 40px; margin: 15px 0px 15px 19px; text-align: center; background: url('rss.png') no-repeat scroll center 0px transparent; }
+.left .rss a { font-size: 1.25em; line-height: 100%; text-align: left; display: block; text-decoration: none; padding: 12px 0px 0px 60px; color: rgb(34, 118, 11); }
+.ad { width: 190px; margin: 15px 0px 15px 19px; }
+.ad ul { text-align: center; margin: 0px auto; padding: 0px; list-style: none outside none; }
+.ad li {  }
+.ad li a {  }
+.ad li a img { width: 130px; }
+.center h3 { border-bottom: 2px solid rgb(170, 170, 170); padding: 0px 0px 2px; margin: 15px 0px 8px; }
+.center .topic h3 { padding: 16px 0px 2px 62px; background: url('topic_h3_bg.png') no-repeat scroll 0px 0px transparent; }
+.topic, .hotQa, .hotessay, .hotessay2 { margin: 25px 0px; }
+.topic h4 { font: 1em normal; background: url('li_bg.gif') no-repeat scroll 4px 3px transparent; padding: 0px 0px 0px 20px; margin: 0px 0px 2px; }
+.topic h4 span { margin-left: 1em; }
+.topic p { margin: 0px 0px 1em 20px; color: rgb(12, 135, 86); }
+.topic p a { background: url('more_bg_nt.gif') no-repeat scroll 0px 1px transparent; padding: 0px 0px 2px 15px; margin: 0px 0px 0px 1em; }
+.fb { background: url('fb_h2_am1.png') no-repeat scroll 0pt 0pt transparent; margin: 0pt 0pt 15px 15px; width: 200px; padding: 30px 0pt 0pt; }
+.fb .body { background: url('fb_div_bg.png') no-repeat scroll 0pt bottom transparent; padding: 0pt 18px 15px; }
+.search, .login, .login2, .epaper, .rbox { margin: 0px 0px 15px 15px; width: 200px; }
+.search { padding: 65px 0px 0px; }
+.login, .login2 { padding: 57px 0px 0px; }
+.epaper { padding: 38px 0px 0px; }
+.search h2, .login h2, .login2 h2, .epaper h2 { visibility: hidden; position: absolute; }
+.search form, .login .body, .login2 .body, .epaper .body { padding: 0px 18px 15px; }
+.search input.ckb { margin-right: 2px; }
+.search input.txt, .epaper input.txt { width: 160px; margin: -1px 0px 3px; }
+.login input.txt { width: 125px; }
+.login form label { display: block; margin: 0px 0px 5px; }
+.search input.ckb { margin: 0px; padding: 0px; }
+.login ul { list-style: none outside none; overflow: hidden; margin: 0px; padding: 0px; }
+.login li { display: inline; margin: 0px; padding: 0px; }
+.login li a { display: block; float: left; padding: 7px 15px 9px; text-decoration: none; background: url('login_a_bg.gif') no-repeat scroll center 0px transparent; color: rgb(51, 51, 51); }
+.epaper { text-align: center; }
+.theme { width: 204px; margin: 0px 0px 10px 15px; padding: 25px 0px 0px; }
+.theme .body { padding: 0px 21px 22px; }
+.theme .body p { line-height: 140%; margin: 10px 0px 0px; }
+.theme .body img { width: 160px; border: 1px solid rgb(187, 187, 187); }
+.theme h2 { font-size: 16px; margin: 0px 21px 5px; padding: 0px; }
+a { text-decoration: none; color: rgb(11, 88, 145); }
+a:hover { text-decoration: underline; color: rgb(0, 131, 229); }
+img { border: medium none; }
+.more { line-height: 100%; text-align: right; letter-spacing: 0px; font-family: Arial,Helvetica,sans-serif; }
+.more a { padding: 0px 0px 2px 15px; text-decoration: none; }
+.Accesskey { text-decoration: none; }
+.left .Accesskey { float: left; }
+form { margin: 0px; padding: 0px; }
+input.txt { border: 1px solid rgb(170, 170, 170); height: 1.5em; }
+.footer { margin: 30px 0px 0px; padding: 18px 15px; }
+.footer img { float: left; margin: 5px 15px 30px 0px; width: 200px; height: 50px; }
+.footer p { line-height: 150%; margin: 0px; padding: 0px; }
+.footer .copyright { margin: 0.8em 1.5em 0px 0px; }
+.footer .count { float: right; }
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_layout.css ::::: */
+
+.layout { border-collapse: collapse; width: 100%; margin: 0px; padding: 0px; }
+.layout td.left { vertical-align: top; width: 230px; padding: 178px 0px 20px; }
+.layout td.center { vertical-align: top; padding: 20px 12px 10px; }
+.layout td.right { vertical-align: top; width: 230px; padding: 0px 0px 20px; }
+table.sublayout { border-collapse: collapse; }
+.sublayout td { line-height: 150%; width: 50%; vertical-align: top; }
+.sublayout td h4 { font-weight: normal; line-height: 130%; margin: 0px 0px 0.8em; padding: 0px; }
+.sublayout .col1 { padding: 8px 15px 0px 3px; }
+.sublayout .col2 { padding: 8px 3px 0px 15px; }
+.sublayout img { float: left; width: 100px; height: 100px; border: 1px solid rgb(170, 170, 170); margin: 0px 8px 3px 0px; }
+.sublayout td p { padding: 0px; margin: 8px 0px; }
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_function.css ::::: */
+
+ul.function { clear: both; margin: -39px 0px 0px; list-style: none outside none; padding: 0px; letter-spacing: 1px; background: url('tab_ul_bg.gif') repeat-x scroll left bottom transparent; float: right; }
+.function li, .group li, #MagTabs li { background: url('cate_bg2.gif') no-repeat scroll right top transparent; float: left; margin: 0px 1px 2px; padding: 0px 10px 0px 0px; white-space: nowrap; font-size: 13px; line-height: 14px; }
+.function li a, .group li a, #MagTabs li a { background: url('cate_bg1.gif') no-repeat scroll left top transparent; display: block; padding: 11px 0px 4px 12px; color: rgb(255, 255, 255); text-decoration: none; }
+.function li a:hover, .group li a:hover, #MagTabs li a:hover { color: rgb(255, 255, 0); text-decoration: none; }
+.function li.now, .group li.activity, #MagTabs li.current { background: url('cate_now_bg2.gif') no-repeat scroll right top transparent; padding: 0px 10px 0px 0px; }
+.function li.now a, .group li.activity a, #MagTabs li.current a { background: url('cate_now_bg1.gif') no-repeat scroll left top transparent; display: block; color: rgb(68, 68, 68); }
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_list.css ::::: */
+
+.list { clear: both; }
+ul.list { list-style: none outside none; margin: 8px 0px 3px; padding: 0px; }
+.list li { line-height: 150%; background: url('li_bg.gif') no-repeat scroll 4px 3px transparent; padding: 0px 0px 5px 20px; margin: 0px 0px 5px; border-bottom: 1px dotted rgb(170, 170, 170); }
+.list li a {  }
+.list li span { margin: 0px 1em; color: rgb(12, 135, 86); }
+.list li span.from { margin-right: 0px; color: rgb(12, 135, 86); }
+.list li span.date { margin-left: 1em; letter-spacing: 0px; color: rgb(68, 68, 68); }
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_preface.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_page.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_lplist.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_category.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_album.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_cp.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_function2.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_cptable.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_interact.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_lpphoto2.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_score.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_column.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_subjectlist.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_knowledge.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_qplist.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_pantology.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/o_common.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/o_cfunction.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/o_jigsaw.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/Font_resize.css?v=201219 ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_calendar.css?v=201221 ::::: */
+
+#calar_ot { width: 192px; height: 175px; font-size: 12px; }
+.season .back_bg A { padding: 1px 2px; font-weight: bold; color: rgb(162, 72, 64); }
+.season .back_bg A:hover { text-decoration: none; }
+.season .d_icon { position: absolute; top: 90px; left: -20px; width: 36px; height: 36px; background-repeat: no-repeat; }
+.season .coun { padding: 0px; letter-spacing: 2px; }
+.season .lunar { color: rgb(162, 72, 64); z-index: 1; padding: 8px 0px 2px 5px; }
+.season .color_w { color: rgb(255, 255, 255); }
+.season .color_b { color: rgb(0, 0, 0); }
+.season table.stag { position: relative; z-index: 5; margin: 6px 10px 5px 16px; }
+.season table { border-collapse: collapse; border-spacing: 0px; }
+.season table.stag .nam { top: 123px; text-align: center; font-size: 16px; font-weight: bold; height: 42px; }
+.season table.stag .inf { font-size: 12px; line-height: 1.2em; }
+.season .bruch { position: absolute; top: 100px; left: 5px; width: 59px; height: 59px; z-index: 0; }
+#calar_ot.s_2_AM { background: url('2am.png') no-repeat scroll left top transparent; }
+#calar_ot.s_2_AM .color_a { color: rgb(71, 71, 71); }
+#calar_ot.s_2_AM .color_b { color: rgb(71, 71, 71); }
+#calar_ot.s_2_AM .color_c { color: rgb(71, 71, 71); }
+.season .bruch_2_AM { background: url('brush4.png') no-repeat scroll left top transparent; }
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css/i_fontsize.css?v=2013 ::::: */
+
+.rcm { color: rgb(68, 68, 68); margin: 1em 0px 0.5em; padding: 0px; font-size: 125%; font-weight: normal; line-height: 25px; }
+.topic div { margin: 0px 0px -10px; }
+/* ::::: http://kmweb.coa.gov.tw/xslgip/style3/css2/AM.css?v=201408 ::::: */
+
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(68, 68, 68); }
+.header { background: url('bannerbg2am.gif') repeat-x scroll 0px 0px transparent; }
+.layout td.center { background: url('layout_center_bg_am.gif') repeat-x scroll 0px 10px rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); }
+.subnav { border-top: 1px solid rgb(124, 188, 217); border-bottom: 1px solid rgb(124, 188, 217); background: url('subnav_bg_4am.gif') repeat-x scroll 0px 0px rgb(62, 142, 179); }
+.subnav a { color: rgb(0, 97, 147); background: url('subnav_a_bg_4am.gif') repeat-x scroll 0px 0px transparent; border-left: 1px solid rgb(240, 249, 251); border-right: 1px solid rgb(117, 194, 207); }
+.subnav a:hover { color: rgb(255, 255, 255); background: url('subnav_hover_bg_4am.gif') repeat-x scroll 0px 0px transparent; border-left: 1px solid rgb(25, 94, 130); border-right: 1px solid rgb(25, 94, 130); }
+.season { background: url('season_bg_2am.png') no-repeat scroll 0px 0px transparent; }
+.season p:nth-child(3) { background: none repeat scroll 0% 0% transparent; }
+.rist { padding: 25px 0px 5px 25px; }
+.coun { padding: 8px 0px 5px 25px; }
+.lunar { color: rgb(162, 72, 64); padding: 8px 0px 5px 25px; }
+.bruch { position: absolute; top: 120px; left: 28px; width: 59px; height: 33px; z-index: 0; background: url('brush.png') no-repeat scroll left top transparent; }
+.menu, .menu2 { background: url('menu_bg_am.png') no-repeat scroll left bottom rgb(53, 112, 173); }
+.menu ul, .menu2 span { background: url('menu_ul_bg_am.gif') no-repeat scroll left top transparent; }
+.menu li a, .menu2 li a { color: rgb(229, 252, 255); background: url('menu_a_bg_am.png') no-repeat scroll right bottom transparent; }
+.menu li a:hover, .menu2 li a:hover { color: rgb(255, 255, 255); background: url('menu_hover_bg_am.png') no-repeat scroll right bottom transparent; }
+.left .rss {  }
+.topic p a { background: url('more_bg_am.gif') no-repeat scroll 0px 1px transparent; }
+.ad li a img { border: 1px solid rgb(187, 187, 187); }
+.ad li a:hover img { border: 1px solid rgb(85, 85, 85); }
+.search { background: url('search_h2_2am.png') no-repeat scroll 0px 0px transparent; }
+.login { background: url('login_h2_am.png') no-repeat scroll 0px 0px transparent; }
+.epaper { background: url('epaper_h2_am.png') no-repeat scroll 0px 0px transparent; }
+.search form, .login .body, .epaper .body, .rbox .body { background: url('right_div_bg_am.png') no-repeat scroll 0px bottom transparent; }
+.theme { background: url('theme_bg_am.gif') no-repeat scroll right top transparent; }
+.theme .body { background: url('theme_body_bg_am.gif') no-repeat scroll left bottom transparent; }
+.theme .body p, .theme .body p a { color: rgb(68, 68, 68); }
+.theme .body a img { border: 1px solid rgb(187, 187, 187); }
+.theme h2 { border-bottom: 2px solid rgb(170, 170, 170); }
+.more a { background: url('more_bg_am.gif') no-repeat scroll 0px 2px transparent; }
+.more a:hover {  }
+.footer { color: rgb(85, 85, 85); border-top: 2px solid rgb(204, 204, 204); }
+.footer img { background: url('webindoor_am.gif') repeat-x scroll 0px 0px transparent; }
+.footer a { color: rgb(66, 125, 169); }
+.footer .count { color: rgb(255, 255, 255); }
+.TagCloud { background: url('theme_bg_am.gif') no-repeat scroll right top transparent; border: 0px none; font-family: Arial; margin: 0px 0px 10px 15px; padding: 20px 0px 0px; width: 204px; }
+.TagCloud h2 { border-bottom: 2px solid rgb(170, 170, 170); font-size: 16px; margin: 0px 21px 5px; }
+.TagCloud div { background: url('theme_body_bg_am.gif') no-repeat scroll left bottom transparent; font-family: Arial; width: 165px; padding: 0px 21px 22px; }
+.TagCloud div a { text-decoration: none; margin: 3px; }
+.TagCloud a { text-decoration: none; margin: 3px; cursor: pointer; }
+.TagCloud div .TagLv_1 { font-size: 14px; color: rgb(11, 88, 145); font-weight: 100; }
+.TagCloud div .TagLv_3 { font-size: 18px; color: rgb(11, 88, 145); font-weight: 300; }
+.TagCloud div .TagLv_6 { font-size: 24px; color: rgb(11, 88, 145); font-weight: 600; }
+.TagCloud div .TagLv_7 { font-size: 26px; color: rgb(11, 88, 145); font-weight: 700; }
+/* ::::: http://kmweb.coa.gov.tw/css/jquery.autocomplete.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/css/alarmtips.css ::::: */
+
+#alarmtips { width: 221px; height: 115px; background: url('alarm_tips.png') no-repeat scroll center center transparent; position: relative; animation: 600ms ease 0s normal forwards 1 scale; z-index: 999; }
+#alarmtips #btn_close { display: inline-block; position: absolute; right: 10px; width: 27px; height: 26px; background: url('btn_close.png') repeat scroll 0% 0% transparent; }
+/* ::::: http://kmweb.coa.gov.tw/knowledge/style/pedia.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/js/fancyboxv1.3.4/fancybox/jquery.fancybox-1.3.4.css ::::: */
+
+#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 1104; display: none; }
+#fancybox-loading div { position: absolute; top: 0px; left: 0px; width: 40px; height: 480px; background-image: url('fancybox.png'); }
+#fancybox-overlay { position: absolute; top: 0px; left: 0px; width: 100%; z-index: 1100; display: none; }
+#fancybox-tmp { padding: 0px; margin: 0px; border: 0px none; overflow: auto; display: none; }
+#fancybox-wrap { position: absolute; top: 0px; left: 0px; padding: 20px; z-index: 1101; outline: medium none; display: none; }
+#fancybox-outer { position: relative; width: 100%; height: 100%; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#fancybox-content { width: 0px; height: 0px; padding: 0px; outline: medium none; position: relative; overflow: hidden; z-index: 1102; border: 0px solid rgb(255, 255, 255); }
+#fancybox-close { position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background: url('fancybox.png') repeat scroll -40px 0px transparent; cursor: pointer; z-index: 1103; display: none; }
+#fancybox-left, #fancybox-right { position: absolute; bottom: 0px; height: 100%; width: 35%; cursor: pointer; outline: medium none; background: url('blank.gif') repeat scroll 0% 0% transparent; z-index: 1102; display: none; }
+#fancybox-left { left: 0px; }
+#fancybox-right { right: 0px; }
+#fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 1102; display: block; }
+#fancybox-left-ico { background-image: url('fancybox.png'); background-position: -40px -30px; }
+#fancybox-right-ico { background-image: url('fancybox.png'); background-position: -40px -60px; }
+#fancybox-left:hover, #fancybox-right:hover { visibility: visible; }
+#fancybox-left:hover span { left: 20px; }
+#fancybox-right:hover span { left: auto; right: 20px; }
+.fancybox-bg { position: absolute; padding: 0px; margin: 0px; border: 0px none; z-index: 1001; }
+#fancybox-bg-n { top: -20px; left: 0px; width: 100%; background-image: url('fancybox-x.png'); }
+#fancybox-bg-ne { top: -20px; right: -20px; background-image: url('fancybox.png'); background-position: -40px -162px; }
+#fancybox-bg-e { top: 0px; right: -20px; height: 100%; background-image: url('fancybox-y.png'); background-position: -20px 0px; }
+#fancybox-bg-se { bottom: -20px; right: -20px; background-image: url('fancybox.png'); background-position: -40px -182px; }
+#fancybox-bg-s { bottom: -20px; left: 0px; width: 100%; background-image: url('fancybox-x.png'); background-position: 0px -20px; }
+#fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url('fancybox.png'); background-position: -40px -142px; }
+#fancybox-bg-w { top: 0px; left: -20px; height: 100%; background-image: url('fancybox-y.png'); }
+#fancybox-bg-nw { top: -20px; left: -20px; background-image: url('fancybox.png'); background-position: -40px -122px; }
+#fancybox-title { font-family: Helvetica; font-size: 12px; z-index: 1102; }
+/* ::::: http://kmweb.coa.gov.tw/js/simplyscroll/jquery.simplyscroll-1.0.4.css ::::: */
+
+.simply-scroll-container { padding-top: 25px; position: relative; }
+.simply-scroll-clip { margin-left: 20px; position: relative; overflow: hidden; z-index: 2; }
+.simply-scroll-list { position: absolute; top: 0px; left: 0px; z-index: 1; overflow: hidden; margin: 0px; padding: 0px; list-style: none outside none; }
+.simply-scroll-list li {  }
+.simply-scroll-list li img { border: medium none; display: block; }
+.simply-scroll-btn { position: absolute; z-index: 3; cursor: pointer; display: block; margin-left: 25px; }
+.simply-scroll-btn-up { right: 6px; top: 16px; }
+.simply-scroll-btn-up.InitDisabled { display: none; }
+.simply-scroll-btn-up:hover {  }
+.simply-scroll-btn-down { right: 6px; bottom: 6px; }
+.simply-scroll-btn-down.InitDisabled { display: none; }
+.simply-scroll-btn-down:hover {  }
+.vert { height: 700px; }
+.vert .simply-scroll-clip { height: 700px; }
+.vert .simply-scroll-btn-up { left: 0px; top: 0px; background-repeat: no-repeat; background-position: center center; width: 120px; height: 25px; }
+.vert .simply-scroll-btn-down { left: 0px; top: 730px; background-repeat: no-repeat; background-position: center center; width: 120px; height: 25px; }
+.vert .simply-scroll-list li img { width: 130px; height: 32px; }
+.vert_1_AM .simply-scroll-btn-up, .vert_2_AM .simply-scroll-btn-up, .vert_3_AM .simply-scroll-btn-up, .vert_4_AM .simply-scroll-btn-up, .vert_5_AM .simply-scroll-btn-up, .vert_6_AM .simply-scroll-btn-up, .vert_7_AM .simply-scroll-btn-up, .vert_1_PM .simply-scroll-btn-up, .vert_2_PM .simply-scroll-btn-up, .vert_6_PM .simply-scroll-btn-up, .vert_7_PM .simply-scroll-btn-up { background-image: url('arrow2_bluegreen.png'); }
+.vert_1_AM .simply-scroll-btn-down, .vert_2_AM .simply-scroll-btn-down, .vert_3_AM .simply-scroll-btn-down, .vert_4_AM .simply-scroll-btn-down, .vert_5_AM .simply-scroll-btn-down, .vert_6_AM .simply-scroll-btn-down, .vert_7_AM .simply-scroll-btn-down, .vert_1_PM .simply-scroll-btn-down, .vert_2_PM .simply-scroll-btn-down, .vert_6_PM .simply-scroll-btn-down, .vert_7_PM .simply-scroll-btn-down { background-image: url('arrow1_bluegreen.png'); }
+/* ::::: http://kmweb.coa.gov.tw/js/jqueryeasing/css/jQueryEasing.css ::::: */
+
+/* ::::: http://kmweb.coa.gov.tw/css/menu_Selected.css ::::: */
+
