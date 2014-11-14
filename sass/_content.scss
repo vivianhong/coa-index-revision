@@ -1,0 +1,164 @@
+.#{$theme} {
+  .fn-section {
+    margin-bottom: 10px;
+  }
+  .fn-title-box {
+    margin-bottom: 10px;
+    min-height: 36px;
+    background: url(../img/title-deco.png) no-repeat left bottom;
+  }
+  .fn-title {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: $font-base + 3px;
+    font-weight: bold;
+    line-height: 2;
+    vertical-align: middle;
+    color: $gray-dark;
+  }
+  .more-box {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .more-link {
+    @include inline-block;
+    border-bottom: 1px solid darken($c-link, 5%);
+    font-size: $font-base - 2px;
+    line-height: 1.2;
+    &:hover {
+      border-bottom: 1px solid darken($c-link-h, 5%);
+    }
+  }
+  .fn-list {
+    list-style: none;
+  }
+  .fn-list-item {
+    float: none;
+    margin-bottom: 10px;
+    padding: 10px 0 0;
+  }
+  .new-deco {
+    .fn-list-item + .fn-list-item  {
+      border-top: 1px dashed $gray-light;
+
+    }
+  }
+  .fn-list-link {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: $font-base;
+    background: none;
+    line-height: 1.5;
+    white-space: normal;
+  }
+  // tip
+  .tip-box {
+    display: block;
+  }
+  .date-box, .news-box {
+    @include inline-block;
+    font-size: $font-base - 1px;
+    color: $gray-light;
+    line-height: 1.2;
+  }
+  .date-box {
+    &.flr {
+      padding: 4px 0 0 0;
+    }
+  }
+  .tip-title {
+    color: $gray-light;
+  }
+  .tip-kind {
+    color: $gray-dark;
+  }
+  .k-bg  {
+    margin: 0 -12px 10px;
+    padding: 10px 12px 30px;
+    background: #f5f3f1;
+    border-top: 1px solid #cfcac5;
+    border-bottom: 1px solid #cfcac5;
+    & .k-link-box {
+      margin-left: 25px;  
+    }
+  }
+  .k-link-box {
+    margin-right: 100px;
+  }
+  // tab
+  .fn-tab-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    &.qa-box {
+      top: -15px;
+    }
+    &.h-art-box {
+      top: -40px;
+    }
+  }
+  [class^="tab-"] {
+    float: left;
+    list-style: none;
+    text-align: center;
+    a {
+      font-size: $font-base;
+      font-weight: none;
+      background: none;
+      padding: 0;
+    }
+  }
+  // hot knowledge qa
+  .tab-qa {
+    height: 64px;
+    width: 97px;
+    &.active {
+      background: url(../img/hot-tab.png) no-repeat;
+      a {
+        color: #fff !important;
+        &:hover {
+          color: #fff !important;
+        }
+      }
+    }
+    a {
+      padding:  19px 0 0 0;
+      color: $gray-dark !important;      
+      &:hover {
+        color: $gray-light !important;
+      }
+    }
+  }
+  // hot knowledge article 
+  .tab-art {
+    height: 30px;
+    width: 80px;
+    &.active {
+      background: url(../img/art-tab.png) no-repeat;
+      a {
+        color: $gray-dark !important;
+        &:hover {
+          color: $gray-dark !important;
+        }        
+      }
+    }
+    a {
+      padding: 10px 0 0 0;
+      color: $gray-dark !important;
+      &:hover {
+        color: $gray-light !important;
+      }
+    }
+  }
+  .fn-tab-content {}
+  .tab-item {
+    display: none;
+    &.active {
+      display: block;
+    }
+    .fn-list-link {
+      margin-right: 10px;
+    }
+  }
+}

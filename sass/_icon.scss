@@ -1,0 +1,22 @@
+.#{$theme} {
+  [class^="icon-"], [class*=" icon-"] {
+    @include inline-block;
+     vertical-align: middle;
+     width: 16px;
+     height: 16px;
+  }
+
+  .icon-double-arrow-r {
+    background: url(../img/icon-double-arrow-r.png) no-repeat center center;
+  }
+  .icon-k-list-style {
+    width: 20px;
+    height: 20px;
+    background: url(../img/knowledge-list-icon.png) no-repeat center center;
+    font-size: $font-base - 3px;
+    font-style: inherit;
+    line-height: 1.7;
+    text-align: center;
+    color: #fff;
+  }
+}

@@ -1,0 +1,46 @@
+// *************************************
+//
+//   Base
+//   -> Tag-level settings
+//
+// *************************************
+
+.#{$theme} {
+  // -------------------------------------
+  //   Block Content
+  // -------------------------------------
+
+  ul, li, p {
+    margin-top: 0;
+  }
+
+  // -------------------------------------
+  //   Inline Content
+  // -------------------------------------
+
+  a {
+    color: $c-link !important;
+    &:hover, &:focus {
+      color: $c-link-h !important;
+      text-decoration: none;
+    }
+  }
+  
+  .inline.inline {
+    @include inline-block;
+  }
+
+  // -------------------------------------
+  //   Tools
+  // -------------------------------------
+  
+  .flr {
+    float: right;
+  }
+  .fll {
+    float: left;
+  }
+  .pos-r {
+    position: relative;
+  }
+}
